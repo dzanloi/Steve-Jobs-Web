@@ -1,0 +1,117 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(36, 37, 42, 0.61);
+    backdrop-filter: blur(5px);
+    top: 0;
+    width: 100%;
+    position: fixed;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+header section {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+header section a {
+    color: #0088a9;
+}
+
+.navigations {
+    margin-right: 20px;
+}
+
+.navigations a {
+    color: whitesmoke;
+}
+
+.navigations li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigations li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigations li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+#banner {
+    margin-top: 80px;
+    display: flex;
+    background-color: white;
+}
+
+#text p {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 70px 20px;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#text {
+    background-color: white;
+}
+
+img {
+    max-width: 37.3%;
+    max-height: auto;
+}
+
+#biography {
+    padding: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    color: white;
+}
+
+#biography h1 {
+    padding: 15px;
+    font-size: 40px;
+}
+
+#biography p {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
